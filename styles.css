@@ -1,0 +1,55 @@
+/* Reset browser default styles */  
+* {  
+    box-sizing: border-box;  
+    margin: 0;  
+    padding: 10;  
+}  
+  
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f4f4f4;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+    margin: 0;  
+    padding: 20px;  
+}  
+  
+.container {  
+    background-color: #fff;  
+    padding: 20px;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    max-width: 400px;  
+    text-align: center;  
+}  
+  
+h1 {  
+    margin-bottom: 20px;  
+}  
+  
+#cookieInfo {  
+    margin-top: 20px;  
+}  
+  
+#cookieInfo label {  
+    display: block;  
+    margin-bottom: 5px;  
+}  
+  
+#cookieInfo input[type="text"] {  
+    width: 100%;  
+    padding: 5px;  
+    margin-bottom: 10px;  
+}  
+  
+#cookieInfo button {  
+    padding: 5px 10px;  
+    margin-right: 5px;  
+}  
+  
+#usernameDisplay {  
+    margin-top: 10px;  
+    font-weight: bold;  
+}
